@@ -1,6 +1,6 @@
 import { pluralize } from './helpers/pluralize.js';
 
-class UserCounter extends HTMLElement {
+class TerribleUserCounter extends HTMLElement {
 
   constructor() {
     super();
@@ -62,4 +62,4 @@ class UserCounter extends HTMLElement {
   }
 }
 
-customElements.define('user-counter', UserCounter);
+customElements.define('terrible-user-counter', TerribleUserCounter);
